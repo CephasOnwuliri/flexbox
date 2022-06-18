@@ -1,0 +1,60 @@
+*body{
+  color: black ;
+    font-size: 15px;
+}
+
+.container{
+    width: 400px;
+    display: flex;
+    text-align: center;
+    font-size: 15px; 
+    flex-direction: row;
+    border-radius: 30%;
+    align-items: center;
+    font-family: "Lexend Deca","Big Shoulders Display","sans-serif";
+  
+}
+
+  .box-orange{
+    width: 200px;
+    height: 200px;
+      background-color: hsl(31, 77%, 52%);
+      color: hsl(0, 0%, 95%);
+      font-family: "Lexend Deca";
+      
+      
+  }
+  .box-cyan{
+    width: 200px;
+    height: 200px;
+      background-color: hsl(184, 100%, 22%);
+      color: hsl(0, 0%, 95%);
+  }
+  .box-dark-cyan{
+    width: 200px;
+    height: 200px;
+   background-color:  hsl(179, 100%, 13%);
+   color:hsl(0, 0%, 95%);
+  }
+  .button{
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    border-radius: 30%;
+  }
+  .orange{
+    color:hsl(31, 77%, 52%);
+  }
+  .cyan{
+      color:hsl(184, 100%, 22%);
+  }
+  .dark-cyan{
+      color:hsl(179, 100%, 13%);
+  }
+  @media (max-width: 375px) {
+    .container {
+      flex-direction: column;
+    }
+  }
